@@ -1,0 +1,4 @@
+bismark_methylation_extractor -s --gzip --bedGraph --buffer_size 10G --cytosine_report --comprehensive --genome_folder /mnt/d/不可告人的秘密/练习/WGBS/Ref_Bismark /mnt/d/不可告人的秘密/练习/WGBS/Bismark_Deduplicate/3bstrain1.1_bismark_bt2.deduplicated.sam 2 > 3bstrain1.1_bismark_bt2.deduplicated.methyl.extra.log &
+bismark_methylation_extractor -s --gzip --bedGraph --buffer_size 10G --cytosine_report --comprehensive --genome_folder /mnt/d/不可告人的秘密/练习/WGBS/Ref_Bismark /mnt/d/不可告人的秘密/练习/WGBS/Bismark_Deduplicate/EV1.1_bismark_bt2.deduplicated.sam 2 > EV1.1_bismark_bt2.deduplicated.methyl.extra.log &
+bismark_methylation_extractor -s --gzip --bedGraph --buffer_size 10G --cytosine_report --comprehensive --genome_folder /mnt/d/不可告人的秘密/练习/WGBS/Ref_Bismark /mnt/d/不可告人的秘密/练习/WGBS/Bismark_Deduplicate/set1rep1.1_bismark_bt2.deduplicated.sam 2 > set1rep1.1_bismark_bt2.deduplicated.methyl.extra.log &
+wait
